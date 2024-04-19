@@ -27,8 +27,12 @@
 	}
 }
 
-:root {
+:root,
+code {
 	font-family: "Hack", "Hack Nerd Font", "JetBrains Mono", "JetBrainsMono Nerd Font", monospace, sans-serif;
+}
+
+:root {
 	scrollbar-width: none;
 
 	background-color: var(--base);
@@ -87,22 +91,37 @@ footer {
 	font-size: small;
 	opacity: 50%;
 }
-
 code {
-	padding: 0.15em 0.4em;
+	padding: 0.15em 0.3em;
+	overflow-wrap: break-word;
+	word-break: break-all;
+	white-space: pre-wrap;
 
 	background-color: var(--surface0);
 	color: var(--subtext1);
+}
+
+pre > code {
+	border: 2px solid var(--surface0);
+	padding: 1.25em 1.5em;
+	display: block;
+
+	background-color: var(--base);
+	color: var(--text);
 }
 
 legend {
 	font-weight: 900;
 }
 
+.projects-list li details[open] {
+	margin: 1em auto;
+}
+
 summary:hover,
 summary:active,
 details[open] > summary {
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 summary::after {
@@ -127,9 +146,14 @@ div.buttons > a {
 	}
 }
 
-td:nth-child(1) {
+table {
+	word-break: break-word;
+}
+
+td:first-child {
 	font-weight: bold;
 	word-break: keep-all;
+	vertical-align: top;
 }
 
 td:nth-child(2) {
@@ -147,6 +171,7 @@ td:nth-child(2) {
 
 	body {
 		padding: 4em 0;
+		min-height: calc(100vh - 8em);
 
 		background: var(--crust);
 		background: linear-gradient(

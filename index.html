@@ -17,63 +17,61 @@
 		<main>
 			<h1>my slonksite</h1>
 			<p>
-				hello, i'm slonkazoid<br />
-				i touch computers
+				hi, i'm slonkazoid<br />
+				i write code and break computers<br />
+				also see <a href="https://blog.slonk.ing/">my blog</a>
 			</p>
 			<h2 id="about">about</h2>
-			<p>programmer, linux user, overall nerd.</p>
+			<p>programmer, linux user, overall nerd</p>
 			<p>
-				i write web apps, cli tools, and such. you can find some of them in the
-				<a href="#projects">projects</a> section.<br />
-				my favorite languages are rust and bash, but i can code in rust, javascript, c, bash, c#; and to a
-				lesser extent, java (minecraft modding), python, brainfuck, php, and lua.
+				i write web apps, cli tools, bots, and such. you can find some of them over at the <a href="projects.html">projects page</a>.<br />
+				my favorite languages are rust and bash, but i can write js/ts, c, c#; and to a lesser extent, java (minecraft modding), python, brainfuck, php,
+				and lua.<br />
+				i'm a quick learner. i like to step out of my comfort zone and try out technology i have little to no experience with. i make learner projects
+				with new stacks and i come out more knowledgable in the end.
 			</p>
 			<p>
-				typing is something i'm relatively good at. i got 121 wpm on monkeytype before typing this sentence. i
-				learnt it by spending several hundred hours without a mic playing TTT in gmod when i was younger, and
-				programming since i was a kid.
+				my favorite web stack is rust (language) + tokio (runtime) + axum (web framework) + hyper (http server) + askama (templating engine) + sqlx
+				(database driver) + postgresql (database) + lighttpd (proxy/web server) + linux (os) + aarch64 (architecture). and musl if you care about
+				libc.<br />
+				also experienced with php (7, plain), express.js, mysql & mariadb, sqlite3, nocodb, electron, ejs, and i'm always willing to learn.
 			</p>
 			<p>
-				i play video games. my all-time favorites are, in no specific order after the second, team fortress 2,
-				celeste, deep rock galactic, ultrakill, minecraft, half-life, and counter-strike.
+				i also play video games. my all-time favorites are, in no specific order after the second, team fortress 2, celeste, deep rock galactic,
+				ultrakill, minecraft, half-life, and counter-strike.
 			</p>
-			<p>
-				i speak english and turkish. i am (not very actively) learning german. i was also learning russian at
-				some point.
-			</p>
-			<p>i have <a href="img/cat/">a cat</a>, his name is karamel.</p>
-			<br />
+			<p>i am fluent in english and turkish (native). i am (not actively) learning german. i was also learning russian at some point.</p>
+			<p><a href="img/cat/">my cat</a>'s name is karamel.</p>
 			<fieldset id="contact">
 				<legend>contact info</legend>
 				<table>
-					<tr>
-						<td>matrix</td>
-						<td>@alifurkan:matrix.org</td>
-					</tr>
 					<tr>
 						<td>email</td>
 						<td>slonkazoid [AT] slonk dot ing</td>
 					</tr>
 					<tr>
-						<td>OpenPGP key</td>
+						<td>ssh key</td>
 						<td>
 							<details style="display: inline; word-break: break-all">
-								<summary>
-									<a
-										href=".well-known/openpgpkey/hu/no67q75f6onergjisn8pwm575e3fga5i"
-										download="pubkey.gpg"
-										>download</a
-									>...
-								</summary>
-								<code>30DDF657DC25EF06FDDCD9B229DFCF2217C06A0A</code> @
-								<a
-									href="https://keys.openpgp.org/vks/v1/by-fingerprint/30DDF657DC25EF06FDDCD9B229DFCF2217C06A0A"
-									>keys.openpgp.org</a
-								>
+								<summary><a href="id_slonkazoid.pub" download>download</a></summary>
+								<code>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHVWgaeL8f7Rwh4WzvqJ5DWG9c7wwjpHG5tsOzF7yVVe slonkazoid</code><br />
+								if key this changes, i will make sure to sign the new key with this one and put it on the
+								<a href="identity.html">identity page</a>
 							</details>
 						</td>
 					</tr>
-
+					<tr>
+						<td>pgp key</td>
+						<td>
+							<details style="display: inline; word-break: break-all">
+								<summary><a href=".well-known/openpgpkey/hu/no67q75f6onergjisn8pwm575e3fga5i" download="slonkazoid.asc">download</a></summary>
+								<code>30DDF657DC25EF06FDDCD9B229DFCF2217C06A0A</code> @
+								<a href="https://keys.openpgp.org/vks/v1/by-fingerprint/30DDF657DC25EF06FDDCD9B229DFCF2217C06A0A">keys.openpgp.org</a><br />
+								if this key changes, i will probably abandon it.
+								<a href="https://www.latacora.com/blog/2019/07/16/the-pgp-problem/">see my reasoning why</a>
+							</details>
+						</td>
+					</tr>
 					<tr>
 						<td>discord</td>
 						<td><a href="https://discord.com/users/276363003270791168">matrix.org</a></td>
@@ -90,19 +88,11 @@
 						<td>gitlab</td>
 						<td><a href="https://gitlab.com/slonkazoid">slonkazoid</a></td>
 					</tr>
+					<tr>
+						<td>forgejo</td>
+						<td><a href="https://git.slonk.ing/slonk">slonk</a></td>
+					</tr>
 				</table>
-			</fieldset>
-			<br />
-			<fieldset id="projects">
-				<legend>projects</legend>
-				<ul>
-					<li>
-						<b>bingus-files</b>, simple file sharing service written in rust
-						<a href="https://gitlab.com/slonkazoid/bingus-files">source</a>
-						<a href="https://files.slonk.ing/">instance</a>
-					</li>
-					<li><b>under</b> construction</li>
-				</ul>
 			</fieldset>
 			<br />
 			<fieldset id="specs">
@@ -126,10 +116,7 @@
 								</tr>
 								<tr>
 									<td>disk</td>
-									<td>
-										1x 1 TB ADATA XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive (3000 MB/s
-										read/write)
-									</td>
+									<td>1x 1 TB ADATA XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive (3000 MB/s read/write)</td>
 								</tr>
 								<tr>
 									<td>mb</td>
@@ -292,6 +279,15 @@
 						<a href="xonotic.html">xonotic server</a>
 					</li>
 					<li>
+						<a href="projects.html">projects</a>
+					</li>
+					<li>
+						<a href="identity.html">identity</a>
+					</li>
+					<li>
+						<a href="https://blog.slonk.ing/">blog</a>
+					</li>
+					<li>
 						<a href="img/cat/">cat pics</a>
 					</li>
 					<li>
@@ -299,21 +295,24 @@
 					</li>
 				</ul>
 			</fieldset>
-
 			<br />
 
 			<p>
 				this close to losing it
-				<progress max="100" value="96"></progress>
+				<progress max="100" value="97"></progress>
 			</p>
-			<p><b>did you know?</b> this website has a total of 0 bytes of javascript</p>
+			<p>
+				<b>did you know?</b> this website has a total of 0 bytes of javascript<br />
+				in my opinion, simple websites like this shouldn't require a powerful system to render. i want my site to be accessible on an old smartphone, on
+				your 14 year old computer, <code>curl | bat -l html</code>, a new high-end computer, and the sbc you found on the sidewalk.
+			</p>
 
 			<div class="buttons">
 				<a href="https://slonk.ing/"><img src="img/88x31.apng" alt="slonk" /></a>
 				<a href="https://iusearchbtw.fun/"><img src="img/maggie.gif" alt="maggie (colon 3)" /></a>
 				<a href="https://maira.cc/"><img src="img/maira.gif" alt="maira.cc" /></a>
 				<a href="https://chxry.github.io/"><img src="img/chxry.gif" alt="chxry" /></a>
-				<a href="https://me.colon3.lol/"><img src="img/pandarose.png" alt="pandarose" /></a>
+				<a href="https://me.fxo.lol/"><img src="img/pandarose.png" alt="pandarose" /></a>
 				<a href="https://matdoes.dev/retro"><img src="img/matdoesdev.png" alt="mat does dev! (colon 3)" /></a>
 				<a href="https://adryd.com/"><img src="img/adryd.png" alt="(witch hat) adryd" /></a>
 				<a href="https://notnite.com/"><img src="img/notnite.png" alt="notnite" /></a>
@@ -322,41 +321,26 @@
 				<a href="https://honbra.com/"><img src="img/honbra.png" alt="honbra" /></a>
 				<a href="https://jamie.rs/"><img src="img/jamie.png" alt="jamie (heart)" /></a>
 				<a href="https://maia.crimew.gay/"><img src="img/maia.crimew.gay.png" alt="maia crimew arson" /></a>
+				<a href="https://rambhat.la/"><img src="img/towu.png" alt="towu (@theonlywayup)" /></a>
 				<a href="https://ssi.fyi/"><img src="img/ssi.gif" alt="server scanning inc" /></a>
 				<a href="https://eightyeightthirty.one/"
-					><img
-						src="img/eightyeightythirtyone.png"
-						alt="eightyeightthirty.one"
-						title="very cool project by notnite"
+					><img src="img/eightyeightythirtyone.png" alt="eightyeightthirty.one" title="very cool project by notnite"
 				/></a>
 				<a href="steam://launch/440"><img src="img/tfnow.gif" alt="team fortress now" /></a>
 				<a href="steam://launch/70"><img src="img/hl.gif" alt="half-life" /></a>
-				<a href="https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish"
-					><img src="img/hatems.gif" alt="i hate microsoft"
-				/></a>
+				<a href="https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish"><img src="img/hatems.gif" alt="i hate microsoft" /></a>
 				<a href="https://linux.org/"><img src="img/linuxnow2.gif" alt="linux now! (2.5)" /></a>
-				<a href="https://archlinux.org/"
-					><img src="img/archbtw.png" alt="powered by Arch BTW" title="i use arch btw"
-				/></a>
+				<a href="https://archlinux.org/"><img src="img/archbtw.png" alt="powered by Arch BTW" title="i use arch btw" /></a>
 				<a href="https://debian.org/"
-					><img
-						src="img/debian.gif"
-						alt="Powered by debian"
-						title="the server runs alpine, but the reverse proxy runs debian"
+					><img src="img/debian.gif" alt="Powered by debian" title="the server runs alpine, but the reverse proxy runs debian"
 				/></a>
 				<a href="https://neovim.io/"><img src="img/neovim.gif" alt="made with neovim" /></a>
-				<a href="https://www.defectivebydesign.org/"
-					><img src="img/dbd.gif" alt="eliminate drm now! defective by design"
-				/></a>
+				<a href="https://www.defectivebydesign.org/"><img src="img/dbd.gif" alt="eliminate drm now! defective by design" /></a>
 				<a href="https://lynx.invisible-island.net/"><img src="img/lynxnow.gif" alt="lynx now! (2.5)" /></a>
 				<a href="http://links.twibright.com/"><img src="img/linksbrow.gif" alt="links browser" /></a>
-				<a href="https://www.anybrowser.org/"
-					><img src="img/anybrowser.gif" alt="viewable with any browser"
-				/></a>
+				<a href="https://www.anybrowser.org/"><img src="img/anybrowser.gif" alt="viewable with any browser" /></a>
 				<a href="https://validator.w3.org/"><img src="img/valid-xhtml10.png" alt="W3C XHTML 1.0 verified" /></a>
-				<a href="https://www.mozilla.org/en-US/firefox/"
-					><img src="img/firefox4.gif" alt="tested on firefox"
-				/></a>
+				<a href="https://www.mozilla.org/en-US/firefox/"><img src="img/firefox4.gif" alt="tested on firefox" /></a>
 				<a href="https://librewolf.net/"><img src="img/chrome.gif" alt="anything but chrome!" /></a>
 				<a href="img/catscape3.gif"><img src="img/catscape3.gif" alt="catspace meow! (3.0)" /></a>
 				<a href="https://ublockorigin.com/"><img src="img/ublockorigin.png" alt="uBlock Origin NOW!" /></a>
@@ -369,8 +353,6 @@
 				/></a>
 				<a href="https://wikipedia.org/"><img src="img/wikipedia.gif" alt="support wikipedia" /></a>
 			</div>
-
-			<p>also visit <a href="https://mimmers.xyz">mia's website</a></p>
 		</main>
 
 		<footer>&#9398; copyfuck 1337 slonkazoid</footer>
