@@ -37,6 +37,7 @@ code {
 
 	background-color: var(--base);
 	color: var(--text);
+	accent-color: var(--pink);
 }
 
 body {
@@ -79,11 +80,15 @@ progress {
 	border-color: var(--text);
 	background-color: var(--base);
 	color: var(--pink);
+	accent-color: var(--pink);
 }
-
 ::-moz-progress-bar,
+::-webkit-progress-value {
+	background-color: var(--pink) !important;
+}
 ::-webkit-progress-bar {
-	background-color: var(--pink);
+	background-color: var(--base);
+	width: 100%;
 }
 
 footer {
