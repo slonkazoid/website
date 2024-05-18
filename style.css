@@ -91,6 +91,10 @@ progress {
 	width: 100%;
 }
 
+fieldset {
+	border-color: var(--text);
+}
+
 footer {
 	text-align: end;
 	font-size: small;
