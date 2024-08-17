@@ -29,7 +29,8 @@
 
 :root,
 code {
-	font-family: "Hack", "Hack Nerd Font", "JetBrains Mono", "JetBrainsMono Nerd Font", monospace, sans-serif;
+	font-family: "Hack", "Hack Nerd Font", "JetBrains Mono", "JetBrainsMono Nerd Font", monospace,
+		sans-serif;
 }
 
 :root {
@@ -77,10 +78,10 @@ progress {
 	width: 100%;
 	border: 2px solid;
 
-	border-color: var(--text);
 	background-color: var(--base);
 	color: var(--pink);
 	accent-color: var(--pink);
+	border-color: var(--text);
 }
 ::-moz-progress-bar,
 ::-webkit-progress-value {
@@ -92,6 +93,8 @@ progress {
 }
 
 fieldset {
+	margin-bottom: 1em;
+
 	border-color: var(--text);
 }
 
@@ -166,12 +169,19 @@ td:first-child {
 }
 
 td:nth-child(2) {
-	padding-left: 0.5em;
+	padding-left: 1em;
 	word-break: break-all;
 }
 
 .webring a {
 	text-decoration: none;
+}
+
+blockquote {
+	margin-left: 1em;
+	padding-left: 1.5em;
+	border-left: 0.5em solid;
+	border-color: var(--rosewater);
 }
 
 @media (min-width: 956px) {
@@ -219,7 +229,12 @@ td:nth-child(2) {
 	width: 100vw;
 	height: 100vh;
 	background: rgb(154, 65, 40);
-	background: linear-gradient(215deg, rgba(154, 65, 40, 1) 0%, rgba(116, 36, 94, 1) 50%, rgba(59, 56, 132, 1) 100%);
+	background: linear-gradient(
+		215deg,
+		rgba(154, 65, 40, 1) 0%,
+		rgba(116, 36, 94, 1) 50%,
+		rgba(59, 56, 132, 1) 100%
+	);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;

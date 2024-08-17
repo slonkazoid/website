@@ -1,9 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="Rain's slonksite" />
+		<meta
+			name="keywords"
+			content="slonkazoid, slonking, slonk.ing, Rain, rust blazingly fast, bingus, webdev, cybersecurity"
+		/>
 		<meta property="og:title" content="slonksite" />
 		<meta property="og:description" content="Rain's slonksite" />
 		<meta property="og:url" content="https://slonk.ing/" />
@@ -16,32 +20,103 @@
 	<body>
 		<main>
 			<h1>my slonksite</h1>
+
 			<p>
 				hi, i'm Rain, or slonkazoid<br />
 				i write code and break computers<br />
-				also see <a href="https://blog.slonk.ing/">my blog</a>
+				also see
+				<a href="https://blog.slonk.ing/"><strong>my blog</strong></a>
 			</p>
+
 			<h2 id="about">about</h2>
-			<p>programmer, linux user, overall nerd</p>
+
 			<p>
-				i write web apps, cli tools, bots, and such. you can find some of them over at the <a href="projects.html">projects page</a>.<br />
-				my favorite languages are rust and bash, but i can write js/ts, c, c#; and to a lesser extent, java (minecraft modding), python, brainfuck, php,
-				and lua.<br />
-				i'm a quick learner. i like to step out of my comfort zone and try out technology i have little to no experience with. i make learner projects
-				with new stacks and i come out more knowledgable in the end.
+				i have been writing code since i was 10. the first language i learned was c# (with
+				winforms), and i was really interested in malware analysis. predictably, danooct1
+				was among my favorite youtubers at the time.<br />
+				though time changes people, and it has changed me quite a bit. i am still really
+				into <strong>cybersecurity</strong> and malware analysis, but my
+				<i>main thing</i> has shifted towards webdev.<br />
+				nowadays, i specialize in <strong>backend web development</strong> and write web
+				apps, cli tools, bots, etc. you can find some of my personal projects over at
+				<a href="projects.html">projects.html</a>.<br />
+				my favorite languages are <strong>rust</strong> and bash, but i can write
+				<strong>js/ts, c, c#, go</strong>; and to a lesser extent,
+				<strong>java</strong> (minecraft modding),
+				<strong>python, brainfuck, php, and lua</strong>.
 			</p>
+
 			<p>
-				my favorite web stack is rust (language) + tokio (runtime) + axum (web framework) + hyper (http server) + askama (templating engine) + sqlx
-				(database driver) + postgresql (database) + lighttpd (proxy/web server) + linux (os) + aarch64 (architecture). and musl if you care about
-				libc.<br />
-				also experienced with php (7, plain), express.js, mysql & mariadb, sqlite3, nocodb, electron, ejs, and i'm always willing to learn.
+				<strong>learning</strong> new things is one of my passions. every time i want to
+				learn a new technology, i will try to make a non-trivial starter project in it to
+				give me a head start.<br />
+				most of these learner projects serve a purpose, though sometimes, i will make a
+				<a href="https://git.slonk.ing/slonk/biter">potentionally useless</a>
+				<a href="https://gitlab.com/hyron-devs/bingus-http">yet involved</a> project just to
+				learn a new thing or practice my skills.<br />
 			</p>
+
+			<div>
+				<details>
+					<summary>my favorite/go-to web stack is</summary>
+					<table>
+						<tr>
+							<td>programming language</td>
+							<td><a href="https://www.rust-lang.org/">rust</a></td>
+						</tr>
+						<tr>
+							<td>web framework</td>
+							<td><a href="https://github.com/tokio-rs/axum">axum</a></td>
+						</tr>
+						<tr>
+							<td>logging system</td>
+							<td><a href="https://github.com/tokio-rs/tracing">tracing</a></td>
+						</tr>
+						<tr>
+							<td>async runtime</td>
+							<td>
+								<a href="https://github.com/tokio-rs/tokio">tokio</a>, and the rest
+								of the tokio ecosystem
+							</td>
+						</tr>
+						<tr>
+							<td>templating engine</td>
+							<td><a href="https://github.com/djc/askama">askama</a></td>
+						</tr>
+						<tr>
+							<td>database and driver</td>
+							<td>
+								postgresql with
+								<a href="https://github.com/launchbadge/sqlx">sqlx</a>
+							</td>
+						</tr>
+						<tr>
+							<td>web server</td>
+							<td><a href="https://www.lighttpd.net/">lighttpd</a></td>
+						</tr>
+						<tr>
+							<td>system</td>
+							<td>linux on arm64</td>
+						</tr>
+					</table>
+					also experienced with handlebars, express.js, mysql & mariadb, sqlite3, nocodb,
+					electron, ejs, php (7, plain), and i'm always willing to learn.
+				</details>
+			</div>
+
 			<p>
-				i also play video games. my all-time favorites are, in no specific order after the second, team fortress 2, celeste, deep rock galactic,
-				ultrakill, minecraft, half-life, and counter-strike.
+				i also play video games. my all-time favorites are, in no specific order after the
+				first: team fortress 2, celeste, deep rock galactic, ultrakill, minecraft,
+				half-life, counter-strike, hyperhell, portal & portal 2.
 			</p>
-			<p>i am fluent in english and turkish (native). i am (not actively) learning german. i was also learning russian at some point.</p>
+
+			<p>
+				fluent in english (not certified though one could reasonably guess C-level) and
+				turkish (native). A1 in german. enough to play csgo in russian.
+			</p>
+
 			<p><a href="img/cat/">my cat</a>'s name is karamel.</p>
+
 			<fieldset id="contact">
 				<legend>contact info</legend>
 				<table>
@@ -54,8 +129,13 @@
 						<td>
 							<details style="display: inline; word-break: break-all">
 								<summary><a href="id_slonkazoid.pub" download>download</a></summary>
-								<code>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHVWgaeL8f7Rwh4WzvqJ5DWG9c7wwjpHG5tsOzF7yVVe slonkazoid</code><br />
-								if key this changes, i will make sure to sign the new key with this one and put it on the
+								<code
+									>ssh-ed25519
+									AAAAC3NzaC1lZDI1NTE5AAAAIHVWgaeL8f7Rwh4WzvqJ5DWG9c7wwjpHG5tsOzF7yVVe
+									slonkazoid</code
+								><br />
+								if key this changes, i will make sure to sign the new key with this
+								one and put it on the
 								<a href="identity.html">identity page</a>
 							</details>
 						</td>
@@ -66,31 +146,47 @@
 					</tr>
 					<tr>
 						<td>discord</td>
-						<td><a href="https://discord.com/users/276363003270791168">matrix.org</a></td>
+						<td>
+							<a href="https://discord.com/users/276363003270791168">matrix.org</a>
+							(preferred)
+						</td>
 					</tr>
 					<tr>
 						<td>matrix</td>
-						<td><a href="https://matrix.to/#/@slonk:slonk.ing">@slonk:slonk.ing</a></td>
+						<td>
+							<a href="https://matrix.to/#/@slonk:slonk.ing">@slonk:slonk.ing</a>
+							(might not see)
+						</td>
 					</tr>
 					<tr>
 						<td>steam</td>
-						<td><a href="https://steamcommunity.com/id/slonkazoid/">/id/slonkazoid</a></td>
+						<td>
+							<a href="https://steamcommunity.com/id/slonkazoid/">/id/slonkazoid</a>
+						</td>
 					</tr>
 					<tr>
 						<td>fedi</td>
 						<td><a href="https://donotsta.re/slonk">@slonk@donotsta.re</a></td>
 					</tr>
 					<tr>
+						<td>forgejo</td>
+						<td><a href="https://git.slonk.ing/slonk">slonk</a></td>
+					</tr>
+					<tr>
 						<td>gitlab</td>
 						<td><a href="https://gitlab.com/slonkazoid">slonkazoid</a></td>
 					</tr>
 					<tr>
-						<td>forgejo</td>
-						<td><a href="https://git.slonk.ing/slonk">slonk</a></td>
+						<td>github</td>
+						<td><a href="https://github.com/slonkazoid">slonkazoid</a></td>
 					</tr>
 				</table>
+
+				in order of chance of actually reaching me:<br />
+				discord (99% if you dm me), email (95%), fedi (90%), matrix (80%), steam (60%),
+				phone (0%)
 			</fieldset>
-			<br />
+
 			<fieldset id="specs">
 				<legend>specs</legend>
 				<ul>
@@ -112,7 +208,13 @@
 								</tr>
 								<tr>
 									<td>disk</td>
-									<td>1x 1 TB ADATA XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive (3000 MB/s read/write)</td>
+									<td>
+										1x 1 TB Samsung SSD 990 EVO PCIe Gen4x2 M.2-2280 NVMe (4000
+										MB/s read/write)
+										<br />
+										1x 1 TB ADATA SX8200PNP Gen3x4 M.2-2280 NVMe (3000 MB/s
+										read/write) (dying)
+									</td>
 								</tr>
 								<tr>
 									<td>mb</td>
@@ -120,27 +222,36 @@
 								</tr>
 								<tr>
 									<td>fs</td>
-									<td>btrfs with <code>compress=zstd:3</code></td>
+									<td>btrfs</td>
 								</tr>
 								<tr>
 									<td>os</td>
-									<td>dual booting arch (first in bootorder) and fedora 40 kde (main)</td>
+									<td>fedora 40 kde</td>
 								</tr>
 								<tr>
-									<td>compositor</td>
+									<td>comp</td>
 									<td>kwin</td>
 								</tr>
 								<tr>
-									<td>monitor</td>
-									<td>cheap 1920x1080 144Hz (i run it at 120) VA panel by GameBooster</td>
+									<td>panel</td>
+									<td>
+										shittiest 1920x1080 144Hz (i run it at 120) VA panel
+										possible, brought to <strike>you</strike> me by GameBooster
+									</td>
 								</tr>
 								<tr>
-									<td>rice (old)</td>
-									<td><a href="https://gitlab.com/slonkazoid/dotfiles">slonkazoid/dotfiles</a></td>
+									<td>rice</td>
+									<td>
+										<a href="https://gitlab.com/slonkazoid/dotfiles"
+											>slonkazoid/dotfiles</a
+										>
+										(old)
+									</td>
 								</tr>
 							</table>
 						</details>
 					</li>
+
 					<li>
 						<details>
 							<summary>laptop (what this server runs on)</summary>
@@ -155,35 +266,40 @@
 								</tr>
 								<tr>
 									<td>ram</td>
-									<td>8 GB DDR3-???? (4 stock+4 1333 MT/s)</td>
+									<td>8 GB DDR3-1600 (4+4)</td>
 								</tr>
 								<tr>
 									<td>gpu</td>
-									<td>Intel HD Graphics 520 (1 GB VRAM + 2 GB shared) + (disabled) AMD Radeon R5 M330 (2 GB VRAM)</td>
+									<td>
+										Intel HD Graphics 520 (1 GB VRAM + 2 GB shared)
+										<br />
+										AMD Radeon R5 M330 (2 GB VRAM) (firmware not loaded)
+									</td>
 								</tr>
 								<tr>
 									<td>disk</td>
-									<td>1x 500 GB Samsung SSD 870 EVO SATA III (500 MB/s read/write)</td>
+									<td>
+										1x 500 GB Samsung SSD 870 EVO SATA III (500 MB/s read/write)
+									</td>
 								</tr>
 								<tr>
 									<td>fs</td>
-									<td>LUKS+btrfs with <code>compress=zstd:1</code> and TPM unlocking</td>
+									<td>
+										LUKS+btrfs with <code>compress=zstd:1</code> and TPM
+										unlocking
+									</td>
 								</tr>
 								<tr>
 									<td>os</td>
-									<td>arch</td>
-								</tr>
-								<tr>
-									<td>wm</td>
-									<td>sway</td>
-								</tr>
-								<tr>
-									<td>rice</td>
-									<td>same as main</td>
+									<td>
+										probably some sort of frankendebian + several debian 12
+										systemd-machined containers
+									</td>
 								</tr>
 							</table>
 						</details>
 					</li>
+
 					<li>
 						<details>
 							<summary>phone</summary>
@@ -215,6 +331,7 @@
 							</table>
 						</details>
 					</li>
+
 					<!-- no longer mine
 					<li>
 						<details>
@@ -248,9 +365,12 @@
 						</details>
 					</li>
 					-->
+
 					<li>
 						<details>
-							<summary>old phone (what this site <i>was</i> running on, R.I.P)</summary>
+							<summary>
+								old phone (what this site <i>was</i> running on, R.I.P)
+							</summary>
 							<table>
 								<tr>
 									<td>model</td>
@@ -280,12 +400,16 @@
 									<td>os</td>
 									<td><a href="https://postmarketos.org/">postmarketOS</a></td>
 								</tr>
+								<tr>
+									<td>death</td>
+									<td><a href="https://is.slonk.ing/">by cat</a></td>
+								</tr>
 							</table>
 						</details>
 					</li>
 				</ul>
 			</fieldset>
-			<br />
+
 			<fieldset id="links">
 				<legend>table of links</legend>
 				<ul>
@@ -317,13 +441,25 @@
 					</li>
 				</ul>
 			</fieldset>
-			<br />
 
 			<p>
 				<b>did you know?</b> this website has a total of 0 bytes of javascript<br />
-				in my opinion, simple websites like this shouldn't require a powerful system to render. i want my site to be accessible on an old smartphone, on
-				your 14 year old computer, <code>curl | bat -l html</code>, a new high-end computer, and the sbc you found on the sidewalk.
+				in my opinion, simple websites like this shouldn't require a powerful system to
+				render. i want my site to be accessible on an old smartphone, on your 14 year old,
+				crumbling computer, <code>curl | bat -l html</code>, a nasa supercomputer, and the
+				sbc you found on the sidewalk.<br />
+				my other projects do have javascript, and sometimes even require it. do you really
+				need to react facebook nextjs angular vue csr hydration firebase a personal website,
+				though?
 			</p>
+
+			<blockquote>
+				<p>
+					"never spend diamonds on a hoe. eff5 unb3 mending diamond hoes are already in
+					the loot table of ancient city main chests."
+				</p>
+				- anonymous
+			</blockquote>
 
 			<p class="webring">
 				<a href="https://ring.ssi.fyi/previous?host=slonk.ing">←</a>
@@ -336,59 +472,110 @@
 				<a href="https://slonk.ing/"><img src="img/88x31.apng" alt="slonk" /></a>
 				<!-- /me -->
 				<!-- people -->
-				<a href="https://maggiepi.site/"><img src="img/maggie.gif" alt="maggie (colon 3)" /></a>
+				<a href="https://maggiepi.site/"
+					><img src="img/maggie.gif" alt="maggie (colon 3)"
+				/></a>
 				<a href="https://maira.cc/"><img src="img/maira.gif" alt="maira.cc" /></a>
 				<a href="https://chxry.github.io/"><img src="img/chxry.gif" alt="chxry" /></a>
 				<a href="https://fxo.lol/"><img src="img/pandarose.png" alt="pandarose" /></a>
-				<a href="https://theresnotime.co.uk/"><img src="img/theresnotime.png" alt="(fox) theresnotime" /></a>
+				<a href="https://theresnotime.co.uk/"
+					><img src="img/theresnotime.png" alt="(fox) theresnotime"
+				/></a>
 				<a href="https://n3tael.eu.org/"><img src="img/n3tael.gif" alt="n3" /></a>
 				<a href="https://zvava.org/"><img src="img/zvava.org.png" alt="Zvava.org" /></a>
 				<!-- from ssi -->
-				<a href="https://matdoes.dev/retro"><img src="img/matdoesdev.png" alt="mat does dev! (colon 3)" /></a>
+				<a href="https://matdoes.dev/retro"
+					><img src="img/matdoesdev.png" alt="mat does dev! (colon 3)"
+				/></a>
 				<a href="https://adryd.com/"><img src="img/adryd.png" alt="(witch hat) adryd" /></a>
 				<a href="https://notnite.com/"><img src="img/notnite.png" alt="notnite" /></a>
 				<a href="https://shrecked.dev/"><img src="img/shwecky.png" alt="shwecky" /></a>
-				<a href="https://lily.pet/"><img src="img/lily.png" alt="lily.pet, cat! (points to cat)" /></a>
-				<a href="https://kibty.town/"><img src="img/kibty.town-badge.gif" alt="kibty town" /></a>
+				<a href="https://lily.pet/"
+					><img src="img/lily.png" alt="lily.pet, cat! (points to cat)"
+				/></a>
+				<a href="https://kibty.town/"
+					><img src="img/kibty.town-badge.gif" alt="kibty town"
+				/></a>
 				<a href="https://honbra.com/"><img src="img/honbra.png" alt="honbra" /></a>
 				<a href="https://tufo.dev/"><img src="img/tufo.png" alt="TUFO" /></a>
-				<a href="https://funtimes909.xyz/"><img src="img/funtimes909.png" alt="funtimes" /></a>
+				<a href="https://funtimes909.xyz/"
+					><img src="img/funtimes909.png" alt="funtimes"
+				/></a>
 				<a href="https://jamie.rs/"><img src="img/jamie.png" alt="jamie (heart)" /></a>
-				<a href="https://maia.crimew.gay/"><img src="img/maia.crimew.gay.png" alt="maia crimew arson" /></a>
-				<a href="https://blog.northernsi.de/"><img src="img/northernside.png" alt="northernsi.de" /></a>
-				<a href="https://rambhat.la/"><img src="img/towu.png" alt="towu (@theonlywayup)" /></a>
-				<a href="https://aubrey.rs/"><img src="img/aubreyrs.png" alt="(butterfly) aubrey" /></a>
-				<a href="https://sylvie.lol/"><img src="img/aaa-sylvielol.gif" alt="sylvie.lol" /></a>
+				<a href="https://maia.crimew.gay/"
+					><img src="img/maia.crimew.gay.png" alt="maia crimew arson"
+				/></a>
+				<a href="https://vea.st/"><img src="img/veast.png" alt="chloe vea.st" /></a>
+				<a href="https://blog.northernsi.de/"
+					><img src="img/northernside.png" alt="northernsi.de"
+				/></a>
+				<a href="https://rambhat.la/"
+					><img src="img/towu.png" alt="towu (@theonlywayup)"
+				/></a>
+				<a href="https://aubrey.rs/"
+					><img src="img/aubreyrs.png" alt="(butterfly) aubrey"
+				/></a>
+				<a href="https://sylvie.lol/"
+					><img src="img/aaa-sylvielol.gif" alt="sylvie.lol"
+				/></a>
 				<a href="https://redcatho.de/"><img src="img/red.png" alt="red is purple" /></a>
 				<a href="https://nikolan.xyz/"><img src="img/nikolan.png" alt="nikolan" /></a>
 				<a href="https://damcraft.de/"><img src="img/dam.gif" alt="dam marquee" /></a>
-				<a href="https://ammar.win/"><img src="img/amr.gif" alt="amr (cat)" /></a>
+				<a href="https://ammar.win/amr"><img src="img/amr.gif" alt="amr (cat)" /></a>
 				<!-- /from ssi -->
 				<!-- /people -->
 				<!-- ssi -->
 				<a href="https://ssi.fyi/"><img src="img/ssi.gif" alt="server scanning inc" /></a>
 				<a href="https://eightyeightthirty.one/"
-					><img src="img/eightyeightythirtyone.png" alt="eightyeightthirty.one" title="very cool project by notnite"
+					><img
+						src="img/eightyeightythirtyone.png"
+						alt="eightyeightthirty.one"
+						title="very cool project by notnite"
 				/></a>
 				<!-- /ssi -->
 				<!-- other -->
 				<a href="steam://launch/440"><img src="img/tfnow.gif" alt="team fortress now" /></a>
 				<a href="steam://launch/70"><img src="img/hl.gif" alt="half-life" /></a>
-				<a href="https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish"><img src="img/hatems.gif" alt="i hate microsoft" /></a>
-				<a href="https://linux.org/"><img src="img/linuxnow2.gif" alt="linux now! (2.5)" /></a>
-				<a href="https://archlinux.org/"><img src="img/archbtw.png" alt="powered by Arch BTW" title="i use arch btw" /></a>
+				<a href="https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish"
+					><img src="img/hatems.gif" alt="i hate microsoft"
+				/></a>
+				<a href="https://linux.org/"
+					><img src="img/linuxnow2.gif" alt="linux now! (2.5)"
+				/></a>
+				<a href="https://archlinux.org/"
+					><img src="img/archbtw.png" alt="powered by Arch BTW" title="i use arch btw"
+				/></a>
 				<a href="https://debian.org/"
-					><img src="img/debian.gif" alt="Powered by debian" title="the server runs alpine, but the reverse proxy runs debian"
+					><img
+						src="img/debian.gif"
+						alt="Powered by debian"
+						title="the server runs alpine, but the reverse proxy runs debian"
 				/></a>
 				<a href="https://neovim.io/"><img src="img/neovim.gif" alt="made with neovim" /></a>
-				<a href="https://lynx.invisible-island.net/"><img src="img/lynxnow.gif" alt="lynx now! (2.5)" /></a>
-				<a href="http://links.twibright.com/"><img src="img/linksbrow.gif" alt="links browser" /></a>
-				<a href="https://www.anybrowser.org/"><img src="img/anybrowser.gif" alt="viewable with any browser" /></a>
-				<a href="https://validator.w3.org/"><img src="img/valid-xhtml10.png" alt="W3C XHTML 1.0 verified" /></a>
-				<a href="https://www.mozilla.org/en-US/firefox/"><img src="img/firefox4.gif" alt="tested on firefox" /></a>
-				<a href="https://librewolf.net/"><img src="img/chrome.gif" alt="anything but chrome!" /></a>
-				<a href="img/catscape3.gif"><img src="img/catscape3.gif" alt="catspace meow! (3.0)" /></a>
-				<a href="https://ublockorigin.com/"><img src="img/ublockorigin.png" alt="uBlock Origin NOW!" /></a>
+				<a href="https://lynx.invisible-island.net/"
+					><img src="img/lynxnow.gif" alt="lynx now! (2.5)"
+				/></a>
+				<a href="http://links.twibright.com/"
+					><img src="img/linksbrow.gif" alt="links browser"
+				/></a>
+				<a href="https://www.anybrowser.org/"
+					><img src="img/anybrowser.gif" alt="viewable with any browser"
+				/></a>
+				<a href="https://validator.w3.org/"
+					><img src="img/valid-xhtml10.png" alt="W3C XHTML 1.0 verified"
+				/></a>
+				<a href="https://www.mozilla.org/en-US/firefox/"
+					><img src="img/firefox4.gif" alt="tested on firefox"
+				/></a>
+				<a href="https://librewolf.net/"
+					><img src="img/chrome.gif" alt="anything but chrome!"
+				/></a>
+				<a href="img/catscape3.gif"
+					><img src="img/catscape3.gif" alt="catspace meow! (3.0)"
+				/></a>
+				<a href="https://ublockorigin.com/"
+					><img src="img/ublockorigin.png" alt="uBlock Origin NOW!"
+				/></a>
 				<a href="https://lineageos.org/"><img src="img/lineageos.png" alt="LineageOS" /></a>
 				<a href="https://grapheneos.org/"
 					><img
@@ -396,7 +583,9 @@
 						alt="GrapheneOS"
 						title="credit to Commenter25 (commenter.cc) for the image. also, i have never used grapheneos"
 				/></a>
-				<a href="https://wikipedia.org/"><img src="img/wikipedia.gif" alt="support wikipedia" /></a>
+				<a href="https://wikipedia.org/"
+					><img src="img/wikipedia.gif" alt="support wikipedia"
+				/></a>
 				<!-- /other -->
 			</div>
 		</main>
