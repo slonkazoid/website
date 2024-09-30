@@ -10,6 +10,7 @@
 	--rosewater: #f5e0dc;
 	--blue: #89b4fa;
 	--mauve: #cba6f7;
+	color-scheme: dark;
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,6 +25,7 @@
 		--rosewater: #dc8a78;
 		--blue: #1e66f5;
 		--mauve: #8839ef;
+		color-scheme: light;
 	}
 }
 
