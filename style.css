@@ -31,7 +31,8 @@
 
 :root,
 code {
-	font-family: "Hack", "Hack Nerd Font", "JetBrains Mono", "JetBrainsMono Nerd Font", monospace, sans-serif;
+	font-family: "Hack", "Hack Nerd Font", "JetBrains Mono", "JetBrainsMono Nerd Font", monospace,
+		sans-serif;
 }
 
 :root {
@@ -97,12 +98,6 @@ fieldset {
 	margin-bottom: 1em;
 
 	border-color: var(--text);
-}
-
-fieldset,
-iframe {
-	width: 100%;
-	box-sizing: border-box;
 }
 
 footer {
@@ -236,7 +231,12 @@ blockquote {
 	width: 100vw;
 	height: 100vh;
 	background: rgb(154, 65, 40);
-	background: linear-gradient(215deg, rgba(154, 65, 40, 1) 0%, rgba(116, 36, 94, 1) 50%, rgba(59, 56, 132, 1) 100%);
+	background: linear-gradient(
+		215deg,
+		rgba(154, 65, 40, 1) 0%,
+		rgba(116, 36, 94, 1) 50%,
+		rgba(59, 56, 132, 1) 100%
+	);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
