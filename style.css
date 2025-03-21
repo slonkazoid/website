@@ -170,7 +170,6 @@ blockquote {
 
 body {
 	margin: 0;
-	padding: 2em 0;
 	box-sizing: border-box;
 	min-height: 100dvh;
 
@@ -213,6 +212,10 @@ body > main > h1:first-child {
 			var(--crust) calc(50% + var(--width) / 2),
 			var(--base) 100%
 		);
+	}
+
+	main {
+		padding: 4em;
 	}
 
 	body > * {
