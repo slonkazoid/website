@@ -82,6 +82,14 @@ fieldset {
 	border-color: var(--text);
 }
 
+fieldset#motd {
+	padding: 0px 1.5em 1.5em;
+}
+
+fieldset#motd > p:first-of-type {
+	margin-top: 1.5em;
+}
+
 footer {
 	text-align: end;
 	font-size: small;

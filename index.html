@@ -30,20 +30,11 @@
 
 			<fieldset id="motd">
 				<legend>message of the day</legend>
-				<p>
-					<a href="https://moonlight-mod.github.io/">moonlight</a> is now on
-					<a href="https://flathub.org/apps/io.github.moonlight_mod.moonlight-installer">flathub</a>!! it
-					supports patching the discord flatpak installed with <code>--user</code> (preferred), and
-					installations in .local/share (installed through the tar.gz)!
-				</p>
-				<div class="buttons">
-					<a href="https://moonlight-mod.github.io/"
-						><img src="img/moonlightnow.gif" alt="moonlight now! mod your discord"
-					/></a>
-					<a href="https://flathub.org/apps/io.github.moonlight_mod.moonlight-installer"
-						><img src="img/flathub.png" alt="get it on flathub" title="i made this one too!"
-					/></a>
-				</div>
+				<p>steam</p>
+				<pre><code>cat &gt;&gt;~/.local/share/flatpak/overrides/com.valvesoftware.Steam &lt;&lt;EOF
+[System Bus Policy]
+org.freedesktop.NetworkManager=talk
+EOF</code></pre>
 			</fieldset>
 
 			<h2 id="about">about</h2>
