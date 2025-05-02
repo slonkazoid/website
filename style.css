@@ -142,6 +142,7 @@ details[open] > summary::after {
 div.buttons a {
 	font-size: 0;
 }
+div.buttons img,
 div.buttons a > img {
 	image-rendering: crisp-edges;
 	image-rendering: pixelated;
