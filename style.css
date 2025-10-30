@@ -191,6 +191,11 @@ main {
 	background-color: var(--base); /* else it's transparent */
 }
 
+.divider::before {
+	content: " 〜 ";
+	user-select: none;
+}
+
 body > main > h1:first-child {
 	margin-top: 0;
 }
